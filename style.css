@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(234,237,237);
+}
+h1{
+    text-align: center;
+}
+.stripe{
+    width: 100%;
+    height: 184px;
+}
+#stripeImage{
+    width: 97%;
+    margin: 10px auto;
+    height: 100%;
+}
+nav{
+    border: 1px;
+}
+.parent{
+    position: sticky;
+    top: 0;
+}
+.navulclass{
+ display: flex;
+ margin-left: 48px;
+    width: 80%;
+    background: #232F3D;
+    & a{
+        
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        &:hover{
+            /* font-size: 13px; */
+            opacity: 0.9;
+        }
+    }
+}
+.upperCarousel{
+    width: 100%;
+    & img{
+        width: 100%;
+       
+    }
+}
+
+
+.products{
+    /* border: 2px solid; */
+    margin: 30px auto;
+    width: 94%;
+    height: 400px;
+    display: flex;
+}
+.card{
+    width: 19%;
+    height: 100%;
+    margin: 10px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(220, 175, 175, 0.24) 0px 3px 8px;
+    & img{
+        cursor: pointer;
+        width: 100%;
+        height: 50%;
+    }
+    &:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+.cardbody{
+    /* background: rgb(116, 113, 113); */
+    padding: 10px;
+}
+.cardTitle{
+    font-weight: bold;
+   
+}
+.deals{
+    margin-top: 20px;
+    margin-left: 6px;
+    & span{
+        font-weight: bold;
+        padding: 6px;
+        background: rgb(240, 109, 109);
+        border-radius: 6px;
+        color: white;
+    }
+    & strong{
+        padding: 7px;
+        font-size:large;
+        color: red;
+    }
+}
+.btnClass{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  
+    & button{
+        cursor: pointer;
+        width: 47%;
+        border: none;
+        /* background: rgb(242, 122, 242); */
+       background:  rgb(247,202,0);
+        color: white;
+        padding: 10px;
+        border-radius: 7px;
+        font-weight: bold;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    &:nth-child(1){
+        background: green;
+    }
+}
+.category{
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    /* border: 1px solid red; */
+}
+#headingImage{
+    width: 100%;
+    margin: 15px auto;
+    height: 100%;
+}
+.imageSection{
+    /* width: 90%; */
+    /* margin: 2px auto; */
+    margin-left: 3%;
+    & img{
+        width: 209px;
+        height: 220px;
+        cursor: pointer;
+    }
+}
+.carousel{
+   margin: 20px 0;
+    & img{
+    height: 200px;
+    width: 100%;
+    }
+}
+.featured{
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 94%;
+    justify-content: space-around;
+    min-height: 400px;
+    background: white;
+    & img{
+        width: 235px;
+        height: 289px;
+        margin-bottom: 10px;
+    }
+}
